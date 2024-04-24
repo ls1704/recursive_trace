@@ -1,5 +1,5 @@
 # recursive_trace
-Python wrapper to render a trace graph of the function calls for a recursive function. 
+Python wrapper to render a trace graph of the function calls for a recursive function. Intended for students of MATH3202 and MATH7232.
 
 Source: https://www.quora.com/How-can-I-draw-visualization-for-function-calls-in-a-recursive-function-in-Python
 
