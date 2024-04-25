@@ -21,7 +21,7 @@ The wrapper is defined in file `recviz.py`.  So at the start of your python file
 
 ```Python
 import networkx as nx
-from recviz2 import trace_call_graph, show_graph
+from recviz import trace_call_graph, show_graph
 ```
 
 The wrapper uses `networkx` which is a common python package for doing computations with graphs.  We use the `DiGraph` class.  So add the following lines directly above your recursive function:
@@ -35,7 +35,7 @@ With the recursive function, the whole code will look like:
 
 ```Python
 import networkx as nx
-from recviz2 import trace_call_graph, show_graph
+from recviz import trace_call_graph, show_graph
 
 g = nx.DiGraph()
 @trace_call_graph(g)
